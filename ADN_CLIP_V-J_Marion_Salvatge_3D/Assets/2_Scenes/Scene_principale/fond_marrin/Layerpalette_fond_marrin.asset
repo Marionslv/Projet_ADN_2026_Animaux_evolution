@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
+  m_Name: Layerpalette_fond_marrin
+  m_EditorClassIdentifier: Unity.TerrainTools.Editor::UnityEngine.TerrainTools.TerrainPalette
+  PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 5022bf94ba5b8694896975dfa7d1a434, type: 2}
+  - {fileID: 8574412962073106934, guid: e5ad7be3c1bd0d646a0566fe746f5dec, type: 2}
+  - {fileID: 8574412962073106934, guid: f36bd9e481b475841bc00ca3b0d78aa6, type: 2}
+  - {fileID: 8574412962073106934, guid: 31c67f75f37198c41b2d977412e99ce8, type: 2}
+  - {fileID: 8574412962073106934, guid: a474971563494ef40b2ab4da182a221e, type: 2}
+  - {fileID: 8574412962073106934, guid: 7c98c188fbad2e14ea6c7976939bd6b8, type: 2}
+  - {fileID: 8574412962073106934, guid: 05da9cb3e79664144a4d5d4f8553fcba, type: 2}
