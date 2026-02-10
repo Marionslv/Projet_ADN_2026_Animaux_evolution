@@ -27,7 +27,7 @@ MonoBehaviour:
     supportVolumetricClouds: 1
     supportLightLayers: 1
     supportWater: 1
-    waterSimulationResolution: 256
+    waterSimulationResolution: 128
     waterCPUSimulation: 1
     supportDistortion: 1
     supportTransparentBackface: 1
@@ -54,7 +54,7 @@ MonoBehaviour:
     supportDataDrivenLensFlare: 1
     supportRuntimeAOVAPI: 0
     supportDitheringCrossFade: 1
-    supportTerrainHole: 0
+    supportTerrainHole: 1
     lightProbeSystem: 1
     probeVolumeMemoryBudget: 1024
     probeVolumeBlendingMemoryBudget: 128
@@ -129,15 +129,15 @@ MonoBehaviour:
       drawDistance: 1000
       atlasWidth: 4096
       atlasHeight: 4096
-      perChannelMask: 0
+      perChannelMask: 1
     postProcessSettings:
       m_LutSize: 32
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 0
+      enabled: 1
       useMipBias: 0
-      enableDLSS: 0
+      enableDLSS: 1
       DLSSPerfQualitySetting: 0
       DLSSInjectionPoint: 0
       DLSSUseOptimalSettings: 1
