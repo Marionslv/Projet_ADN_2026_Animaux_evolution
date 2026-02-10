@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   opacity:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   upperHemisphereOnly:
     m_OverrideState: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
       m_Value: {fileID: 2800000, guid: 57a33fc2476a01644865bfde5f06e2f4, type: 3}
     opacityR:
       m_OverrideState: 1
-      m_Value: 1
+      m_Value: 0.141
     opacityG:
       m_OverrideState: 1
       m_Value: 0
@@ -299,10 +299,10 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0}
   bottomAltitude:
     m_OverrideState: 1
-    m_Value: 2000
+    m_Value: 150
   altitudeRange:
     m_OverrideState: 1
-    m_Value: 6000
+    m_Value: 3000
   fadeInMode:
     m_OverrideState: 1
     m_Value: 0
@@ -368,35 +368,35 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: 0.115023844
-        outSlope: 0.115023844
+        inSlope: -0.8006644
+        outSlope: -0.8006644
         tangentMode: 34
         weightedMode: 0
         inWeight: 0
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.7333313
-        value: 1.0843506
-        inSlope: 0.1123745
-        outSlope: 0.1123745
-        tangentMode: 34
+        time: 0.24091426
+        value: 0.8071085
+        inSlope: 0.0052090944
+        outSlope: 0.0052090944
+        tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
+        inWeight: 0.21249922
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.9119652
-        value: 1.1039512
-        inSlope: -0.5355358
-        outSlope: -0.5355358
-        tangentMode: 34
+        time: 0.31665957
+        value: 1.0424805
+        inSlope: -0.03530302
+        outSlope: -0.03530302
+        tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.20998809
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: -1.1807967
-        outSlope: -1.1807967
+        inSlope: -0.062165894
+        outSlope: -0.062165894
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
@@ -410,8 +410,8 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: -0.11711681
+        value: 1.0767626
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -419,8 +419,8 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.0396374
-        value: 0.86773825
+        time: 0.016873196
+        value: 0.8671737
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -428,8 +428,8 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.2383191
-        value: 0.996609
+        time: 0.23994446
+        value: 1.0118561
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -437,31 +437,31 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.53333485
-        value: 0.85142076
-        inSlope: 0
-        outSlope: 0
+        time: 0.5993984
+        value: 0.9860987
+        inSlope: -0.0046629757
+        outSlope: -0.0046629757
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.8291626
-        value: 0.84952927
-        inSlope: 0
-        outSlope: 0
+        time: 0.6908863
+        value: 0.8552123
+        inSlope: 0.10239422
+        outSlope: 0.10239422
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 1
       - serializedVersion: 3
         time: 1.1916809
         value: 0.9735832
-        inSlope: 0
-        outSlope: 0
+        inSlope: -0.23195432
+        outSlope: -0.23195432
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
+        inWeight: 0.63632286
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -503,7 +503,7 @@ MonoBehaviour:
       m_RotationOrder: 4
   scatteringTint:
     m_OverrideState: 1
-    m_Value: {r: 0.6320754, g: 0.46213064, b: 0.4992122, a: 1}
+    m_Value: {r: 1, g: 0.8066038, b: 0.9024796, a: 1}
   powderEffectIntensity:
     m_OverrideState: 0
     m_Value: 0.25
@@ -511,20 +511,20 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.5
   densityMultiplier:
-    m_OverrideState: 1
-    m_Value: 0.221
+    m_OverrideState: 0
+    m_Value: 0.463
   shapeFactor:
     m_OverrideState: 1
     m_Value: 0.901
   shapeScale:
     m_OverrideState: 1
-    m_Value: 7.44
+    m_Value: 4.23
   shapeOffset:
     m_OverrideState: 0
-    m_Value: {x: 5200, y: 100, z: 100}
+    m_Value: {x: 0, y: 0, z: 0}
   erosionFactor:
     m_OverrideState: 1
-    m_Value: 0.916
+    m_Value: 1
   erosionScale:
     m_OverrideState: 1
     m_Value: 116.46
@@ -532,11 +532,11 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   ambientLightProbeDimmer:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   sunLightDimmer:
-    m_OverrideState: 1
-    m_Value: 0.836
+    m_OverrideState: 0
+    m_Value: 1
   erosionOcclusion:
     m_OverrideState: 0
     m_Value: 0.1
@@ -551,7 +551,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value:
       mode: 0
-      customValue: 84
+      customValue: 4
       additiveValue: 0
       multiplyValue: 1
   altitudeDistortion:
@@ -860,10 +860,10 @@ MonoBehaviour:
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: -2.2587411
+    m_Value: -3.2034764
   limitMax:
     m_OverrideState: 1
-    m_Value: 15
+    m_Value: 10.359303
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -1016,8 +1016,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 20000
   updateMode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 2
   updatePeriod:
     m_OverrideState: 0
     m_Value: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     m_Value: 1
   seaLevel:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 1000
   planetaryRadius:
     m_OverrideState: 0
     m_Value: 6378100
@@ -1068,7 +1068,7 @@ MonoBehaviour:
     m_Value: 0
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.5517978, g: 0.754717, b: 0.70658, a: 1}
+    m_Value: {r: 0.6698113, g: 0.4960395, b: 0.591646, a: 1}
   groundColorTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -1107,7 +1107,7 @@ MonoBehaviour:
     m_Value: {r: 0.5377358, g: 0.06848522, b: 0.2444495, a: 1}
   horizonZenithShift:
     m_OverrideState: 1
-    m_Value: -0.966
+    m_Value: 0.481
   numberOfBounces:
     m_OverrideState: 0
     m_Value: 3
